@@ -1,6 +1,6 @@
 #include "utilities.h"
 
-void utilities::mainMenu(){
+void utilities::main_menu(){
 
 }
 

@@ -9,7 +9,7 @@ class utilities {
 private:
 
 public:
-	void mainMenu();
+	void main_menu();
 	void header();
 };
 
