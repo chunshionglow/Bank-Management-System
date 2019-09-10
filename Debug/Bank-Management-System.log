@@ -1,0 +1,3 @@
+﻿  Bank-Management-System.cpp
+C:\Users\cslow\source\repos\Bank-Management-System\Bank-Management-System.cpp(15,13): warning C4101:  'e': unreferenced local variable
+  Bank-Management-System.vcxproj -> C:\Users\cslow\source\repos\Bank-Management-System\Debug\Bank-Management-System.exe
