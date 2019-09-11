@@ -1,4 +1,5 @@
 #pragma once
+#include <stdlib.h>
 
 using namespace std;
 
@@ -11,6 +12,9 @@ private:
 public:
 	void main_menu();
 	void header();
+	void clrscr();
+	double is_valid_double();
+	double larger_than_zero();
 };
 
 #endif 
