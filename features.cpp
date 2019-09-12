@@ -21,11 +21,35 @@ void features::new_acc(){
 	cout << "Enter Date of Birth in a DD/MM/YYYY Format" << endl;
 	cin >> DOB;
 
+	cout << "Enter Citizen Number" << endl;
+	cin >> citizen_number;
+
 	cout << "Enter Street Name" << endl;
 	cin >> street_name;
 
 	cout << "Enter Property Lot" << endl;
 	cin >> lot;
+
+	cout << "Enter Postcode" << endl;
+	cin >> postcode;
+
+	cout << "Enter Region" << endl;
+	cin >> region;
+
+	cout << "Enter State" << endl;
+	cin >> state;
+
+	cout << "Enter Country" << endl;
+	cin >> country;
+
+	cout << "Enter Phone Number" << endl;
+	cin >> phone_number;
+
+	cout << "Enter Amount Deposited" << endl;
+	cin >> amount_deposited;
+
+	cout << "Enter Account Type" << endl;
+	cin >> account_type;
 }
 
 void features::view_full_list(){
