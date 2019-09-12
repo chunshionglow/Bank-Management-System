@@ -4,6 +4,10 @@ void features::new_acc(){
 
 }
 
+void features::view_full_list(){
+
+}
+
 void features::view_acc_details(){
 
 }

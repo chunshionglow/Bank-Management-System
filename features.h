@@ -23,6 +23,7 @@ private:
 
 public:
 	void new_acc();
+	void view_full_list();
 	void view_acc_details();
 	void edit_acc_details();
 	void transact();
