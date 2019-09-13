@@ -31,6 +31,23 @@ public:
 	void transact();
 	void delete_acc();
 	
+	//getter
+	string get_name() {
+		return name;
+	}
+
+	string get_DOB() {
+		return DOB;
+	}
+
+	//setter
+	void set_name(string n) {
+		name = n;
+	}
+
+	void set_DOB(string dob) {
+		DOB = dob;
+	}
 };
 
 #endif 

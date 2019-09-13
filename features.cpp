@@ -17,9 +17,11 @@ void features::new_acc(){
 
 	cout << "Enter Full Name of customer" << endl;
 	cin >> name;
+	set_name(name);
 
 	cout << "Enter Date of Birth in a DD/MM/YYYY Format" << endl;
 	cin >> DOB;
+	set_DOB(DOB);
 
 	cout << "Enter Citizen Number" << endl;
 	cin >> citizen_number;
