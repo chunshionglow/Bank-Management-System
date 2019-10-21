@@ -16,6 +16,7 @@ private:
 public:
 	void main_menu();
 	void header();
+	void footer();
 	void clrscr();
 	void clear_buffer();
 	double is_valid_double();

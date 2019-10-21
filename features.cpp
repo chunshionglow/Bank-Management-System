@@ -62,6 +62,10 @@ void features::new_acc(){
 	cout << "Enter Account Type" << endl;
 	cin >> account_type;
 	set_account_type(account_type);
+
+	fout << name << ","
+		<< DOB << "m"
+		<< "\n";
 }
 
 void features::view_full_list(){

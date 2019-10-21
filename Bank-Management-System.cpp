@@ -3,15 +3,18 @@
 using namespace std;
 
 //features feat;
-//utilities util;
+utilities util;
 
 int main()
 {
 	try {
-		//cout << "Hello World" << endl;
+		util.header();
+		util.main_menu();
+		util.footer();
 	}
 	catch (int e) {
-		cout << "An Exception has Occured" << endl;
+		cout << "An Exception has Occured" << endl
+			<< "Please Try Again" << endl;
 	}
 	system("pause");
 	return 0;
